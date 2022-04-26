@@ -12,7 +12,7 @@ This required me to refactor their software code base in order to add functional
 
 The steps outlined below were followed to address and remedy all areas in the Practices for Secure Software Report. 
 
-I was able to determined an appropriate encryption algorithm cipher to deploy a given security vulnerabilities.  
+I was able to determined an appropriate encryption algorithm cipher to deploy given security vulnerabilities.  
 
 What about the process of working through the vulnerability assessment did you find challenging or helpful?
 
