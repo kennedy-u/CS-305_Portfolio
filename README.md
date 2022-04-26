@@ -1,6 +1,8 @@
-# CS-305-Projects
-Department of Computer Sciences (Projects)
+# CS-305-Projects: Department of Computer Sciences
+
 This deliveray is Practices for Secure Software Security Testing protocols.
+
+
 
 
 
@@ -14,10 +16,7 @@ The steps outlined below were followed to address and remedy all areas in the Pr
 
 I was able to determined an appropriate encryption algorithm cipher to deploy given security vulnerabilities.  
 
-What about the process of working through the vulnerability assessment did you find challenging or helpful?
-
 Generated an appropriate self-sighned certifcates using the Java Keytool.
-
 
 Deployed Cipher, this was done by deploying and implementing the encryption algorithm cipher to the software application. In addition, I verified this process by using a checksum verification process. 
 
