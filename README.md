@@ -24,9 +24,15 @@
 
 - What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
 
+  - Most of the tools I used were research-based. I used stack overflow in finding environmental set-up problem solutions provided by other developers and administrators who have had similar problems as mine. 
+
 
 - Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
 
+  - The implementation of the hash function algorithm and other types of hash functions and data encryption.
+  - Implementation of maven dependency check and its report after and before suppressed vulnerabilities. 
+  - CA authorization procedure, implementation and management. 
+  - Input validation technics as it provides an additional security layer in data and database management.
 
 
 
