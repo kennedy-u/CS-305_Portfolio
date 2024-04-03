@@ -3,9 +3,9 @@
 Projects from CS-305 Software Security
 
 ## Projects
-- Project 1 - [Vulnerability Assessment Report](CS-305%20Project-1%20Artemis%20Financial%20Vulnerability%20Assessment%20Report.pdf)
-- Project 2 - [Practices for Secure Software Report](CS-305%20Project-2%20Practices%20for%20Secure%20Software%20Report.pdf)
-- Certificate Generation - [Certificate Generation](Module%20Five%20Certificate%20Generation.pdf)
+- Project 1 - [Vulnerability Assessment Report](docs/CS-305%20Project-1%20Artemis%20Financial%20Vulnerability%20Assessment%20Report.pdf)
+- Project 2 - [Practices for Secure Software Report](docs/CS-305%20Project-2%20Practices%20for%20Secure%20Software%20Report.pdf)
+- Certificate Generation - [Certificate Generation](docs/Module%20Five%20Certificate%20Generation.pdf)
 
 ## Reflection
 
