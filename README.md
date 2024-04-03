@@ -8,7 +8,7 @@ Projects from CS-305 Software Security
 - Certificate Generation - [Certificate Generation](docs/Module%20Five%20Certificate%20Generation.pdf)
 
 
-![image](images/Screenshot%202024-04-03%20112757.jpg)
+[image](images/cert.jpg)
 
 
 
