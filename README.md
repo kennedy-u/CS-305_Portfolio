@@ -7,6 +7,11 @@ Projects from CS-305 Software Security
 - Project 2 - [Practices for Secure Software Report](docs/CS-305%20Project-2%20Practices%20for%20Secure%20Software%20Report.pdf)
 - Certificate Generation - [Certificate Generation](docs/Module%20Five%20Certificate%20Generation.pdf)
 
+
+![image](images/Screenshot%202024-04-03%20112757.jpg)
+
+
+
 ## Reflection
 
 ### Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
