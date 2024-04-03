@@ -7,6 +7,8 @@ Projects from CS-305 Software Security
 - Project 2 - [Practices for Secure Software Report](CS-305%20Project-2%20Practices%20for%20Secure%20Software%20Report.pdf)
 - Certificate Generation - [Certificate Generation](Module%20Five%20Certificate%20Generation.pdf)
 
+## Reflection
+
 ### Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
 
 The client was Artemis Financial, Artemis Financial is a financial institution, they are looking to incorporate additional security layers to its business application code base files and contents. 
