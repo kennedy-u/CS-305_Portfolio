@@ -12,27 +12,27 @@ Projects from CS-305 Software Security.
 
 ### Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
 
-The client was Artemis Financial, Artemis Financial is a financial institution, they are looking to incorporate additional security layers to its business application code base files and contents. 
+The client was Artemis Financial, a financial institution. They are looking to incorporate additional security layers into their business application codebase, including files and contents.
 
 ### What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
 
-I enjoyed running a functional test and a secondary dependency vulnerability check via a static testing method to ensure that most of the vulnerabilities were found and mitigated. Secure coding practices are important to incorporate in all parts of SDLC because developers, DevOps engineers, and administrators not only need to protect their client's data but also their client's user's data.   
+I enjoyed running functional tests and conducting a secondary dependency vulnerability check via static testing methods to ensure that most vulnerabilities were identified and mitigated. Secure coding practices are crucial to incorporate at all stages of the SDLC because developers, DevOps engineers, and administrators must protect not only their clients' data but also their clients' users' data.   
 
 ### What part of the vulnerability assessment was challenging or helpful to you?
 
-The maven dependency check tool was most helpful, it provided an effective way to identify vulnerabilities. The maven dependency tool user guide provided support for how to read the report and how to identify if a vulnerability is a false positive. False positives can be suppressed; however, the analyzer must confirm false positives before suppressing them for future builds.  
+The Maven dependency check tool was very helpful; it provided an effective way to identify vulnerabilities. The Maven dependency tool user guide offered support on how to read the report and how to determine if a vulnerability is a false positive. False positives can be suppressed; however, the analyzer must confirm false positives before suppressing them for future builds.
 
 ### How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
 
-Through the refactoring and analysis process of the dependency check, outdated libraries and outdated frameworks were found. Outdated libraries are mostly found to be vulnerable to attacks and may impair software’s overall functionality, so these libraries were updated to the most recent patch. To provide additional security layer input validation was provided in the source code. A hash function that will take data and hash that data to hash values (digest) was added. Hash functions are used for integrity and digital signature authentications. Penetration testing technics will suffice to identify most software vulnerabilities and use the DevSecOps proposed guidelines to mitigate vulnerabilities found.    
+During the refactoring and analysis process of the dependency check, outdated libraries and frameworks were identified. Outdated libraries are often vulnerable to attacks and may compromise the overall functionality of the software. Therefore, these libraries were updated to the most recent patches. Additionally, to provide an additional layer of security, input validation was implemented in the source code. A hash function, which takes data and generates hash values (digests), was also added. Hash functions are used for integrity and digital signature authentication. Penetration testing techniques will be sufficient to identify most software vulnerabilities, and the DevSecOps proposed guidelines will be used to mitigate any vulnerabilities found.   
 
 ### How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
 
-In the process of refactoring the code base, the code base was progressively debugged for functional checks and code errors. The pom.xml file was analyzed to make sure that each introduced dependency is functional and updated. After the code base was refactored, an additional dependency check was run on the code to ensure that no new vulnerability was added after the code was refactored.
+In the process of refactoring the codebase, it was progressively debugged for functional checks and code errors. The pom.xml file was analyzed to ensure that each introduced dependency is functional and up-to-date. After the codebase was refactored, an additional dependency check was performed to ensure that no new vulnerabilities were introduced.
 
 ### What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
 
-Most of the tools I used were research-based. I used stack overflow in finding environmental set-up problem solutions provided by other developers and administrators who have had similar problems as mine. 
+Most of the tools I used were research-based. I utilized Stack Overflow to find solutions to environmental setup problems provided by other developers and administrators who have encountered similar issues to mine. 
 
 
 ### Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
