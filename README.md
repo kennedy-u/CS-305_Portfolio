@@ -7,45 +7,45 @@ Projects from CS-305 Software Security.
 - Project 2 - [Practices for Secure Software Report](docs/CS-305%20Project-2%20Practices%20for%20Secure%20Software%20Report.pdf)
 - Certificate Generation - [Certificate Generation](docs/Module%20Five%20Certificate%20Generation.pdf)
 
+### Cert
+<p align="center">
+  <img src="CS-305_Project%202_ssl-server_student/images/cert.jpg" alt="image">
+</p>
+
 
 ## Reflection
 
 ### Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
 
-The client was Artemis Financial, a financial institution. They are looking to incorporate additional security layers into their business application codebase, including files and contents.
+The client, Artemis Financial, a financial institution, sought to incorporate additional security layers into their business application codebase, including files and contents.
 
 ### What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
 
-I enjoyed running functional tests and conducting a secondary dependency vulnerability check via static testing methods to ensure that most vulnerabilities were identified and mitigated. Secure coding practices are crucial to incorporate at all stages of the SDLC because developers, DevOps engineers, and administrators must protect not only their clients' data but also their clients' users' data.   
+Refactoring and performing a secondary dependency vulnerability scan on the codebase proved valuable. I excelled in troubleshooting the scan process, including dependency resolution and environment setup. Additionally, I effectively documented the vulnerabilities and the steps taken to mitigate them. Reducing vulnerabilities and security threats enhances the overall security of the software.
 
 ### What part of the vulnerability assessment was challenging or helpful to you?
 
-The Maven dependency check tool was very helpful; it provided an effective way to identify vulnerabilities. The Maven dependency tool user guide offered support on how to read the report and how to determine if a vulnerability is a false positive. False positives can be suppressed; however, the analyzer must confirm false positives before suppressing them for future builds.
+ The Maven dependency tool user guide provided guidance on interpreting the report and determining whether a vulnerability is a false positive. While false positives can be suppressed, they must be verified by the analyzer before being excluded from future builds. Handling false positives was challenging due to their high volume during the dependency check.
 
 ### How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
 
-During the refactoring and analysis process of the dependency check, outdated libraries and frameworks were identified. Outdated libraries are often vulnerable to attacks and may compromise the overall functionality of the software. Therefore, these libraries were updated to the most recent patches. Additionally, to provide an additional layer of security, input validation was implemented in the source code. A hash function, which takes data and generates hash values (digests), was also added. Hash functions are used for integrity and digital signature authentication. Penetration testing techniques will be sufficient to identify most software vulnerabilities, and the DevSecOps proposed guidelines will be used to mitigate any vulnerabilities found.   
+During the refactoring and analysis of dependencies, outdated libraries and frameworks were identified. Such libraries are often vulnerable to attacks and can compromise the overall functionality of the software. Consequently, these libraries were updated to their latest patches. To further enhance security, input validation was incorporated into the source code. Additionally, a hash function was implemented to generate hash values (digests) for data. Hash functions are essential for ensuring data integrity and digital signature authentication. Penetration testing techniques will effectively identify most software vulnerabilities, and the proposed DevSecOps guidelines will be applied to address any vulnerabilities discovered.
 
 ### How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
 
-In the process of refactoring the codebase, it was progressively debugged for functional checks and code errors. The pom.xml file was analyzed to ensure that each introduced dependency is functional and up-to-date. After the codebase was refactored, an additional dependency check was performed to ensure that no new vulnerabilities were introduced.
+During the refactoring of the codebase, it was systematically debugged to address functional issues and code errors. The `pom.xml` file was carefully analyzed to ensure that each dependency was functional and up-to-date. Following the refactoring, an additional dependency check was conducted to confirm that no new vulnerabilities had been introduced.
 
 ### What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
 
-Most of the tools I used were research-based. I utilized Stack Overflow to find solutions to environmental setup problems provided by other developers and administrators who have encountered similar issues to mine. 
+Most of the tools I used were research-based. I relied on Stack Overflow to find solutions to environmental setup issues, leveraging insights from other developers and administrators who had faced similar challenges.
 
 
 ### Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
 
-  - The implementation of the hash function algorithm and other types of hash functions and data encryption.
+  - The implementation of the data encryption.
   - Implementation of maven dependency check and its report after and before suppressed vulnerabilities. 
   - CA authorization procedure, implementation and management. 
-  - Input validation technics as it provides an additional security layer in data and database management.
-
-<p align="center">
-  <img src="CS-305_Project%202_ssl-server_student/images/cert.jpg" alt="image">
-</p>
-
+  - Input validation technics as it provides an additional security layer.
 
 
 
